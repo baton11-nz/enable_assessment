@@ -9,7 +9,7 @@ c. Checkout
 User journey: Login > Open a product > Add to cart > Go back to products page > Open another
 product > Add to cart > View Cart
 
-## Covered journey
+## Test steps
 
 1. Login with `standard_user`
 2. Open "Sauce Labs Backpack" item
@@ -22,3 +22,7 @@ product > Add to cart > View Cart
 9. Verify a Remove button exists for each product
 10. Verify Continue Shopping button exists
 11. Verify Checkout button exists
+
+## Result
+
+![Playwright test results](playwright-report/cart_flow_results.png)
